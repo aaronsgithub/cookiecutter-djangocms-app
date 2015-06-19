@@ -1,0 +1,16 @@
+# Config file for automatic testing at travis-ci.org
+language: python
+
+env:
+  - TOXENV=py27
+  - TOXENV=py33
+  - TOXENV=py34
+  - TOXENV=style
+  - TOXENV=docs
+
+install: 
+  - pip install tox
+
+# command to run tests, e.g. python setup.py test
+script:
+  - tox

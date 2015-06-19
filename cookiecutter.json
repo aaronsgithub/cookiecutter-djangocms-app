@@ -1,0 +1,10 @@
+{
+	"app_name": "mypackage",
+  "repo_name": "django-{{ cookiecutter.app_name }}",
+	"version": "0.1.0",
+  "year": "2015",
+  "author_name": "Author name",
+  "author_email": "author@example.com",
+  "copyright_holder": "{{ cookiecutter.author_name }}",
+  "short_description": "Give a brief description of the project."
+}
